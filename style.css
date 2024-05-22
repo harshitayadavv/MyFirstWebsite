@@ -1,0 +1,241 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f7f7f7;
+}
+
+/* Header Styles */
+header {
+    background-color: #86626E;
+    padding: 30px 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 30px;
+    font-family:northwest;
+    font-size:20px;
+    color:#DEFFFC;
+}
+
+nav ul li.hometext {
+    margin-right: auto;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+#aboutauth{
+    display:block;
+    height:550px;
+    font-size: x-large;
+}
+
+
+/* Home Page Styles */
+#home {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #E2E4F6;
+}
+
+#author img {
+    max-width: 100%;
+    height: 500px;
+    float: left;
+    margin-right:20px;
+    background-size: auto;
+    background-position: left center;
+
+}
+#aboutauth{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+}
+#home h2{
+  font-family: cursive;
+}
+
+/* Novels Section Styles */
+#novels {
+    padding: 50px 0;
+    background-color: #E2E4F6;
+}
+
+#novels ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+#novels ul li {
+    background-color: #DBAFC1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#novels ul li h3 {
+    margin-bottom: 10px;
+    font-family: cursive;
+}
+
+#novels ul li img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Reviews Section Styles */
+#reviews {
+    padding: 50px 0;
+    background-color: #E2E4F6;
+}
+
+.review {
+    max-width: 90%;
+    margin: 0 auto 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #DEFFFC;
+}
+
+.review p {
+    margin-bottom: 15px;
+}
+.rev{
+    font-size: large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+.sub{
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#yourrev{
+    max-width: 100%;
+    text-align: left;
+    padding-left: 70px;
+}
+#review_title{
+    font-family: cursive;
+}
+#review fieldset{
+    border: 1px solid black;
+    width: 100px;
+    background-color: #E7C8DD;
+}
+/* Buy Page Styles */
+#buy {
+    padding: 50px 0;
+    display: block;
+    text-align: left;
+    background-color: #E2E4F6;
+    padding-left: 20px;
+}
+
+#buy a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+#buy img{
+    height: 400px;
+    width: 700px;
+    float: right;
+    display: inline;
+    padding-top: 0px;
+}
+/* Footer Styles */
+footer {
+    display: block;
+    background-color: #86626E;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 20px;
+}
+
+.footer-section h3 {
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+}
+
+.footer-section ul li {
+    margin-bottom: 5px;
+}
+
+.footer-bottom p {
+    margin-top: 20px;
+}
+/* CSS for Scroll-to-Top Button */
+#scrollToTopBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button 20px from the bottom */
+    right: 20px; /* Place the button 20px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #333; /* Background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a pointer on hover */
+    padding: 15px; /* Padding */
+    border-radius: 50%; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+#scrollToTopBtn:hover {
+    background-color: #555; /* Darken the button on hover */
+}
+
